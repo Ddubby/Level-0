@@ -30,20 +30,24 @@ public class ForLoop_Gauntlet {
 		}
 		// Problem 2
 		// Command "\n" creates new line
-		int z = 0;
-		int x = -1;
-		for (int i = 1; i < 9; i += 3) {
-			System.out.print(i + " ");
-			for (int j = -1; j < 0; j++) {
-				x += 3;
-				z += 3;
-				System.out.println(x + " " + z);
+		// syso, without the "ln", doesn't create a new line
+		for (int i = 1; i < 10; i += 3) {
+
+			for (int j = 0; j < 3; j++) {
+
+				System.out.print((i + j) + " ");
 
 			}
-
+			System.out.print("\n");
 		}
 
 		// Problem 3
+		for (int i = 0; i < 11; i++) {
+			for (int j = 0; j < 101; j++) {
+				System.out.println(i + j + " ");
+			}
+			System.out.println("\n");
+		}
 
 	}
 }
