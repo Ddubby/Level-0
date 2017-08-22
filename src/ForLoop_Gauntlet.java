@@ -42,12 +42,23 @@ public class ForLoop_Gauntlet {
 		}
 
 		// Problem 3
-		for (int i = 0; i < 11; i++) {
-			for (int j = 0; j < 101; j++) {
-				System.out.println(i + j + " ");
+		for (int i = 1; i < 101; i+=10) {
+			for (int j = 0; j < 10; j++) {
+				System.out.print(i + j + " ");
 			}
 			System.out.println("\n");
 		}
-
+		// Problem 4
+	for (int i = 1; i < 8; i++) {
+		for (int j = 0; j < i; j++) {
+			System.out.print("*");
+		}
+	System.out.println("\n");
+	}
+	
+	
+	
+	
+	
 	}
 }
